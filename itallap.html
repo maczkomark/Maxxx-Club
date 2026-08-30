@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Itallap — Maxxx Club Szombathely</title>
+<meta name="description" content="A Maxxx Club itallapja: saját keverésű koktélok, long drinkek, prémium rövidek, sör és bor, alkoholmentes választék.">
+<meta name="theme-color" content="#0A0708">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=DM+Mono:wght@300;400;500&family=Fraunces:ital,opsz,wght@1,9..144,300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="progress" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+<a href="#fo" class="sr">Ugrás a tartalomra</a>
+
+<div class="demobar">
+  <b>Mintaoldal — dizájnterv a Maxxx Club részére. Az árak demó adatok.</b>
+  <button type="button" aria-label="Sáv bezárása">✕</button>
+</div>
+
+<header class="head">
+  <div class="head__in">
+    <a class="brand" href="index.html" aria-label="Maxxx Club — főoldal">
+      <span class="brand__mark" aria-hidden="true">M</span>
+      <span class="brand__type">Maxxx<i>Club Szombathely</i></span>
+    </a>
+    <nav class="nav" aria-label="Fő navigáció">
+      <a href="index.html">Főoldal</a>
+      <a href="bulik.html">Bulik</a>
+      <a href="termek.html">Terembérlés</a>
+      <a href="galeria.html">Galéria</a>
+      <a href="itallap.html" aria-current="page">Itallap</a>
+      <a href="kapcsolat.html">Kapcsolat</a>
+    </nav>
+    <a class="btn btn--sm head__cta" href="index.html#foglalas">Asztalfoglalás <span class="btn__ar">→</span></a>
+    <button class="burger" aria-label="Menü" aria-expanded="false" aria-controls="drawer"><i></i><i></i><i></i></button>
+  </div>
+</header>
+
+<nav class="drawer" id="drawer" aria-label="Mobil navigáció" aria-hidden="true">
+  <a class="drawer__link" href="index.html"><em>01</em> Főoldal</a>
+  <a class="drawer__link" href="bulik.html"><em>02</em> Bulik</a>
+  <a class="drawer__link" href="termek.html"><em>03</em> Terembérlés</a>
+  <a class="drawer__link" href="galeria.html"><em>04</em> Galéria</a>
+  <a class="drawer__link" href="itallap.html"><em>05</em> Itallap</a>
+  <a class="drawer__link" href="kapcsolat.html"><em>06</em> Kapcsolat</a>
+  <div class="drawer__foot">
+    <a href="tel:+36309690168">+36 30 969 0168</a>
+    <a href="mailto:info@maxxx.hu">info@maxxx.hu</a>
+    <span>9700 Szombathely, Szent István park 9.</span>
+  </div>
+</nav>
+
+<main id="fo">
+
+<section class="phead">
+  <div class="rig" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="shell phead__in">
+    <p class="crumbs"><a href="index.html">Főoldal</a><span>/</span>Itallap</p>
+    <h1 class="d1">Ital<span class="hl">lap</span></h1>
+    <p class="lead" style="margin-top:1.6rem">Nálunk egy egyszerű ital is egyedi élményt nyújt. Prémium márkák, friss alapanyagok, saját receptek.</p>
+  </div>
+</section>
+
+<div class="marquee marquee--red" aria-hidden="true">
+  <div class="marquee__t">
+    <b>Koktélok</b><s>◆</s><b>Long drinkek</b><s>◆</s><b>Prémium rövidek</b><s>◆</s><b>Sör &amp; bor</b><s>◆</s><b>Alkoholmentes</b><s>◆</s>
+  </div>
+</div>
+
+<section class="section">
+  <div class="shell">
+    <div class="grid split">
+
+      <!-- bal: kép + info -->
+      <div data-rv>
+        <div class="figure figure--tall">
+          <img src="assets/img/club-5658.jpg" alt="Koktél narancsszelettel a bárpulton" loading="lazy">
+          <span class="figure__tag">Maxxx Spritz · 2 190 Ft</span>
+        </div>
+        <div class="frame" style="margin-top:1.5rem">
+          <h3 class="d4">Jó tudni</h3>
+          <ul class="room__specs" style="margin-top:1.2rem;margin-bottom:0">
+            <li>Bankkártyás fizetés <b>igen</b></li>
+            <li>Asztalhoz vitt rendelés <b>igen</b></li>
+            <li>Koktél happy hour <b>22:00—23:00</b></li>
+            <li>Alkoholmentes választék <b>igen</b></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- jobb: fülezett itallap -->
+      <div data-rv data-rv-d="1">
+        <div data-tabs>
+          <div class="seg" role="tablist" aria-label="Itallap kategóriák">
+            <button role="tab" id="t1" aria-controls="p1" aria-selected="true">Koktélok</button>
+            <button role="tab" id="t2" aria-controls="p2" aria-selected="false">Rövidek</button>
+            <button role="tab" id="t3" aria-controls="p3" aria-selected="false">Sör &amp; bor</button>
+            <button role="tab" id="t4" aria-controls="p4" aria-selected="false">Alkoholmentes</button>
+          </div>
+
+          <div id="p1" role="tabpanel" aria-labelledby="t1">
+            <div class="menu__row new">
+              <span class="menu__n">Maxxx Spritz</span><span class="menu__dsc"></span><span class="menu__p">2 190 Ft</span>
+              <p class="menu__d">Aperol, prosecco, szóda, narancs — a ház itala</p>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Ibiza Sunset</span><span class="menu__dsc"></span><span class="menu__p">2 490 Ft</span>
+              <p class="menu__d">Fehér rum, maracuja, grenadine, lime</p>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Mojito</span><span class="menu__dsc"></span><span class="menu__p">2 190 Ft</span>
+              <p class="menu__d">Fehér rum, menta, lime, nádcukor, szóda</p>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Espresso Martini</span><span class="menu__dsc"></span><span class="menu__p">2 590 Ft</span>
+              <p class="menu__d">Vodka, friss espresso, kávélikőr</p>
+            </div>
+            <div class="menu__row new">
+              <span class="menu__n">Red Lounge</span><span class="menu__dsc"></span><span class="menu__p">2 690 Ft</span>
+              <p class="menu__d">Gin, málna, citrom, tonik — saját recept</p>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Long Island</span><span class="menu__dsc"></span><span class="menu__p">2 890 Ft</span>
+              <p class="menu__d">Öt rövid, cola, citrom — óvatosan</p>
+            </div>
+          </div>
+
+          <div id="p2" role="tabpanel" aria-labelledby="t2" hidden>
+            <div class="menu__row">
+              <span class="menu__n">Vodka szóda</span><span class="menu__dsc"></span><span class="menu__p">1 590 Ft</span>
+              <p class="menu__d">Prémium vodka, szóda, lime, menta</p>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Gin &amp; tonic</span><span class="menu__dsc"></span><span class="menu__p">1 890 Ft</span>
+              <p class="menu__d">London dry gin, prémium tonik, uborka</p>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Whiskey — cola</span><span class="menu__dsc"></span><span class="menu__p">1 790 Ft</span>
+              <p class="menu__d">Bourbon vagy skót, cola, jég</p>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Rum — cola</span><span class="menu__dsc"></span><span class="menu__p">1 690 Ft</span>
+              <p class="menu__d">Sötét rum, cola, lime</p>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Tequila (2 cl)</span><span class="menu__dsc"></span><span class="menu__p">1 290 Ft</span>
+              <p class="menu__d">Só, citrom — ahogy kell</p>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Pálinka (2 cl)</span><span class="menu__dsc"></span><span class="menu__p">1 190 Ft</span>
+              <p class="menu__d">Kérdezd a pultost az aktuális kínálatról</p>
+            </div>
+          </div>
+
+          <div id="p3" role="tabpanel" aria-labelledby="t3" hidden>
+            <div class="menu__row">
+              <span class="menu__n">Csapolt világos (0,5 l)</span><span class="menu__dsc"></span><span class="menu__p">1 190 Ft</span>
+              <p class="menu__d">Frissen csapolva, mindkét pultnál</p>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Csapolt világos (0,3 l)</span><span class="menu__dsc"></span><span class="menu__p">890 Ft</span>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Prémium üveges sör</span><span class="menu__dsc"></span><span class="menu__p">1 290 Ft</span>
+              <p class="menu__d">Import és hazai kézműves választék</p>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Fröccs (2 dl)</span><span class="menu__dsc"></span><span class="menu__p">990 Ft</span>
+              <p class="menu__d">Fehér vagy rosé, szódával</p>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Bor (1,5 dl)</span><span class="menu__dsc"></span><span class="menu__p">1 190 Ft</span>
+              <p class="menu__d">Válogatás hazai pincészetektől</p>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Prosecco (üveg)</span><span class="menu__dsc"></span><span class="menu__p">9 900 Ft</span>
+              <p class="menu__d">Asztali kiszolgálással, jégvödörben</p>
+            </div>
+          </div>
+
+          <div id="p4" role="tabpanel" aria-labelledby="t4" hidden>
+            <div class="menu__row new">
+              <span class="menu__n">Virgin Mojito</span><span class="menu__dsc"></span><span class="menu__p">1 490 Ft</span>
+              <p class="menu__d">Menta, lime, nádcukor, szóda — alkohol nélkül</p>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Frissen facsart narancslé</span><span class="menu__dsc"></span><span class="menu__p">1 290 Ft</span>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Üdítők (0,25 l)</span><span class="menu__dsc"></span><span class="menu__p">690 Ft</span>
+              <p class="menu__d">Cola, narancs, tonik, gyömbér</p>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Energiaital</span><span class="menu__dsc"></span><span class="menu__p">990 Ft</span>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Ásványvíz (0,33 l)</span><span class="menu__dsc"></span><span class="menu__p">590 Ft</span>
+              <p class="menu__d">A kijelölt sofőrnek a pultnál ingyenes</p>
+            </div>
+            <div class="menu__row">
+              <span class="menu__n">Kávé</span><span class="menu__dsc"></span><span class="menu__p">690 Ft</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="tiny" style="margin-top:1.6rem">
+          Az árak tájékoztató jellegűek, a mintaoldalhoz készültek. Az itallap havonta frissül.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section--tight">
+  <div class="shell">
+    <div class="quote" data-rv style="max-width:60ch">
+      <p>„Olyan egyedi élményt nyújtunk mind a vendéglátás, mind az italok terén, amiben garantáltan nem fog csalódni.”</p>
+      <cite>Singer P. — tulajdonos</cite>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="shell center">
+    <p class="eyebrow" style="justify-content:center" data-rv>Szomjas vagy?</p>
+    <h2 class="d2" data-rv data-rv-d="1">Foglalj asztalt<br>szombatra</h2>
+    <p class="lead" style="margin:1.4rem auto 2rem" data-rv data-rv-d="2">Az asztalodhoz visszük — nem kell a pultnál sorban állnod.</p>
+    <div data-rv data-rv-d="3"><a class="btn" href="index.html#foglalas">Asztalfoglalás <span class="btn__ar">→</span></a></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="shell">
+    <div class="foot__grid">
+      <div>
+        <a class="brand" href="index.html" style="margin-bottom:1.2rem">
+          <span class="brand__mark" aria-hidden="true">M</span>
+          <span class="brand__type">Maxxx<i>Club Szombathely</i></span>
+        </a>
+        <address>
+          9700 Szombathely,<br>Szent István park 9.<br>
+          <a href="tel:+36309690168">+36 30 969 0168</a><br>
+          <a href="mailto:info@maxxx.hu">info@maxxx.hu</a>
+        </address>
+      </div>
+      <div>
+        <h4>Oldalak</h4>
+        <ul>
+          <li><a href="index.html">Főoldal</a></li>
+          <li><a href="bulik.html">Bulik</a></li>
+          <li><a href="termek.html">Terembérlés</a></li>
+          <li><a href="galeria.html">Galéria</a></li>
+          <li><a href="itallap.html">Itallap</a></li>
+          <li><a href="kapcsolat.html">Kapcsolat</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Nyitva</h4>
+        <div class="opening">
+          <div class="on"><span>Szombat</span><b>22:00 — 05:00</b></div>
+          <div><span>Vasárnap</span><b>Zárva</b></div>
+          <div><span>H — P</span><b>Rendezvény</b></div>
+        </div>
+      </div>
+      <div>
+        <h4>Hírlevél</h4>
+        <p class="muted" style="font-size:.88rem;margin:0 0 1rem">Iratkozz fel, és elsőként értesülsz a következő bulikról.</p>
+        <form data-news>
+          <label class="field" style="margin-bottom:.7rem">
+            <span class="sr">E-mail cím</span>
+            <input type="email" placeholder="email@cimed.hu" aria-label="E-mail cím">
+          </label>
+          <button class="btn btn--sm btn--wide" type="submit">Feliratkozom</button>
+        </form>
+      </div>
+    </div>
+    <p class="foot__word" aria-hidden="true">Maxxx Club</p>
+    <div class="foot__bot">
+      <span>© <span data-year>2026</span> Maxxx Music Club Szombathely</span>
+      <span>Minden jog fenntartva</span>
+      <span class="sp">Mintaoldal · dizájnterv</span>
+    </div>
+  </div>
+</footer>
+
+<button class="top" aria-label="Vissza a tetejére">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
